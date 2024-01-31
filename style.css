@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+	background-image:url(https://as2.ftcdn.net/v2/jpg/02/17/70/93/1000_F_217709374_zAgnuoHjt6saOXabuLsWE4Sd6f39Kl49.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+}
